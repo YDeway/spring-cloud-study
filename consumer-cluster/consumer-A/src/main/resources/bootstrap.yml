@@ -1,0 +1,7 @@
+#bootstrap 里面的属性会优先加载，它们默认也不能被本地相同配置覆盖。
+
+spring:
+  cloud:
+    config:
+      uri:
+        - http://localhost:3333
