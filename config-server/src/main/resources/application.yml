@@ -3,20 +3,22 @@ server:
 spring:
   cloud:
     config:
+      discovery:
+        enabled: false
       server:
         git:
           uri: file://${user.home}/external-config
           search-paths:
             - ./
           default-label: master
-          #username: xx 登?git??的??
-          #password: yy 登?git??的密?
+          #username: xx
+          #password: yy
 
   application:
     name: config-server
   #profiles:
    # active:
-    #  - develop #?种方式肯定不要用，用?境?量或者命令行????用：SPRING-PROFILES-ACTIVE=xx,yy
+    #  - develop
 
 eureka:
   client:
