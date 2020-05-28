@@ -1,14 +1,7 @@
 server:
-  port: 80
+  port: 808
 
 spring:
-  datasource:
-    name: mysql
-    driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://129.28.78.146:3306/spring
-    username: root
-    password: 2012dwDW
-    type: org.springframework.jdbc.datasource.DriverManagerDataSource
   application:
     name: consumer
 
