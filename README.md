@@ -1,6 +1,6 @@
 # spring-cloud-study
 # 启动顺序
-* 注册中心 
+* 注册中心 -> 配置中心 -> 生产者 —> 消费者 -> 网关 -> 监控
 
 # Eureka(Deprecated)
 ## 替代方案： 
