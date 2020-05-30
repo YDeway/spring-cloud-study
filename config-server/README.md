@@ -1,0 +1,1 @@
+# spring cloud config 更新配置信息时会自动拉取git上的数据，并且用git覆盖本地数据

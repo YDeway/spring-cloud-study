@@ -1,0 +1,5 @@
+spring:
+  application:
+    ##名字必须配置在本地，不然到配置服务器只能找默认配置数据
+    name: consumer
+

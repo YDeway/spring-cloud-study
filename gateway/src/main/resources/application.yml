@@ -1,5 +1,5 @@
 server:
-  port:3698
+  port: 80
 
 spring:
   application:
@@ -10,9 +10,9 @@ spring:
         locator:
           enabled: true
       routes:
-        -id:
-          uri:
+        - id: producer
+          uri: http://localhost:8888
           predicates:
-            - Path=
+            - Path=/**
 
 

@@ -1,4 +1,6 @@
 # spring-cloud-study
+# 启动顺序
+* 注册中心 
 
 # Eureka(Deprecated)
 ## 替代方案： 
