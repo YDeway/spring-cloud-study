@@ -1,18 +1,6 @@
-server:
-  port: 80
-
 spring:
   application:
     name: gateway
-  cloud:
-    gateway:
-      discovery:
-        locator:
-          enabled: true
-      routes:
-        - id: producer
-          uri: http://localhost:8888
-          predicates:
-            - Path=/**
+
 
 

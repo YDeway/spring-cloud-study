@@ -3,8 +3,7 @@
 * 注册中心 -> 配置中心 -> 生产者 —> 消费者 -> 网关 -> 监控
 
 # Eureka(Deprecated)
-## 替代方案： 
-&emsp;&emsp;Sentinel
+## 替代方案： Sentinel、Nacos
 &emsp;&emsp;用于服务注册与发现
 
 # Netflix/Hystrix(Deprecated)

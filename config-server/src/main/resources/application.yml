@@ -24,8 +24,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8080/eureka
-
----
-spring:
-  profiles: develop
-  other-config: any config
