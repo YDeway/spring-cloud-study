@@ -1,20 +1,16 @@
-
 package com.buck.consumer;
 
 import org.junit.jupiter.api.Test;
-import org.junit.platform.commons.annotation.Testable;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import javax.swing.*;
 
-import java.lang.annotation.Annotation;
 
-@Testable
 public class MultipleTest {
 
     @Test
     public void xx() {
-        Annotation[] annotations = SpringBootApplication.class.getAnnotations();
-        for( Annotation e: annotations) {
-            System.out.println(e.toString());
-        }
+        Timer timer = new Timer(3000, System.out::println);
+        Timer timerw = new Timer(3000, e -> System.out.println(10000));
+        timer.start();
+        timerw.start();
     }
 }
